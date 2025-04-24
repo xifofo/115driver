@@ -18,10 +18,12 @@ const (
 	ApiFileIndexInfo = "https://webapi.115.com/files/index_info"
 
 	ApiFileList       = "https://webapi.115.com/files"
-	ApiFileList1       = "http://web.api.115.com/files"
-	ApiFileList2       = "http://anxia.com/webapi/files"
-	ApiFileList3       = "http://v.anxia.com/webapi/files"
+	ApiFileList1      = "http://web.api.115.com/files"
+	ApiFileList2      = "http://anxia.com/webapi/files"
+	ApiFileList3      = "http://v.anxia.com/webapi/files"
 	ApiFileListByName = "https://aps.115.com/natsort/files.php"
+
+	ApiGetPathID = "https://webapi.115.com/files/getid"
 
 	ApiFileStat = "https://webapi.115.com/category/get"
 	ApiFileInfo = "https://webapi.115.com/files/get_info"

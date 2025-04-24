@@ -173,3 +173,18 @@ func (c *Pan115Client) GetFile(fileID string) (*File, error) {
 	f.from(fileInfo)
 	return f, nil
 }
+
+func (c *Pan115Client) GetPathID(path string) (string, error) {
+	result := GetPathIDResponse{}
+	req := c.NewRequest().
+		SetQueryParam("path", path).
+		ForceContentType("application/json;charset=UTF-8").
+		SetResult(&result)
+
+	resp, err := req.Get(ApiGetPathID)
+	if checkErr := CheckErr(err, &result, resp); checkErr != nil {
+		return "", checkErr
+	}
+
+	return result.ID, nil
+}

@@ -410,3 +410,9 @@ type UploadResult struct {
 		IsVideo  int    `json:"is_video"`
 	} `json:"data"`
 }
+
+type GetPathIDResponse struct {
+	BasicResp
+	ID        string `json:"id"`
+	IsPrivate string `json:"is_private"`
+}
