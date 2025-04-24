@@ -16,10 +16,10 @@ import (
 	"sync"
 	"time"
 
-	hash "github.com/SheltonZhu/115driver/pkg/crypto"
-	cipher "github.com/SheltonZhu/115driver/pkg/crypto/ec115"
 	"github.com/aliyun/aliyun-oss-go-sdk/oss"
 	"github.com/pkg/errors"
+	hash "github.com/xifofo/115driver/pkg/crypto"
+	cipher "github.com/xifofo/115driver/pkg/crypto/ec115"
 )
 
 // GetDigestResult get digest of file or stream

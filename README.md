@@ -2,7 +2,7 @@
 
 🖴 A 115 cloud driver package.
 
-[![Goreport](https://goreportcard.com/badge/github.com/SheltonZhu/115driver)](https://goreportcard.com/report/github.com/SheltonZhu/115driver) [![Release](https://img.shields.io/github/release/SheltonZhu/115driver)](https://github.com/SheltonZhu/115driver/releases) [![Reference](https://img.shields.io/badge/Go-Reference-red.svg)](https://pkg.go.dev/github.com/SheltonZhu/115driver) [![License](https://img.shields.io/:License-MIT-orange.svg)](https://raw.githubusercontent.com/SheltonZhu/115driver/main/LICENSE) [![Downloads](https://img.shields.io/github/downloads/SheltonZhu/115driver/total?color=%239F7AEA&logo=github)](https://github.com/SheltonZhu/115driver/releases)
+[![Goreport](https://goreportcard.com/badge/github.com/xifofo/115driver)](https://goreportcard.com/report/github.com/xifofo/115driver) [![Release](https://img.shields.io/github/release/xifofo/115driver)](https://github.com/xifofo/115driver/releases) [![Reference](https://img.shields.io/badge/Go-Reference-red.svg)](https://pkg.go.dev/github.com/xifofo/115driver) [![License](https://img.shields.io/:License-MIT-orange.svg)](https://raw.githubusercontent.com/xifofo/115driver/main/LICENSE) [![Downloads](https://img.shields.io/github/downloads/xifofo/115driver/total?color=%239F7AEA&logo=github)](https://github.com/xifofo/115driver/releases)
 
 ---
 
@@ -38,7 +38,7 @@
 package main
 
 import (
-    "github.com/SheltonZhu/115driver/pkg/driver"
+    "github.com/xifofo/115driver/pkg/driver"
     "log"
 )
 
@@ -59,7 +59,7 @@ func main() {
 
 ```
 
-More examples can be found in [reference](https://pkg.go.dev/github.com/SheltonZhu/115driver).
+More examples can be found in [reference](https://pkg.go.dev/github.com/xifofo/115driver).
 
 ## Contributors
 
@@ -67,10 +67,10 @@ More examples can be found in [reference](https://pkg.go.dev/github.com/SheltonZ
 <table>
 <tr>
     <td align="center">
-        <a href="https://github.com/SheltonZhu">
-            <img src="https://avatars.githubusercontent.com/u/26734784?v=4" width="100;" alt="SheltonZhu"/>
+        <a href="https://github.com/xifofo">
+            <img src="https://avatars.githubusercontent.com/u/26734784?v=4" width="100;" alt="xifofo"/>
             <br />
-            <sub><b>SheltonZhu</b></sub>
+            <sub><b>xifofo</b></sub>
         </a>
     </td>
     <td align="center">

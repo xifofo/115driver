@@ -2,7 +2,7 @@ style: gitlab
 template: CHANGELOG.tpl.md
 info:
   title: CHANGELOG
-  repository_url: https://github.com/SheltonZhu/115driver
+  repository_url: https://github.com/xifofo/115driver
 options:
   commits:
     filters:
